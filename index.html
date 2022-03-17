@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css?_v=20220317045752">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.css?_v=20220317045752">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20220317045752">
+        <link rel="stylesheet" href="css/style.min.css?_v=20220317045752" />
+    </head>
+    <body>
+        <header class="main-page">
+            <div class="header">
+                <div class="header__top">
+                    <div class="header__container container">
+                        <div class="header__row">
+                            <a href="tel:+7(495)287-14-50" class="header__contact --phone">+7 (495) 287-14-50</a>
+                            <a href="mailto:info@npoekar.ru" class="header__contact --email">info@npoekar.ru</a>
+                            <p class="header__contact --address">г. Москва, Пресненская наб., д. 6 стр. 2, 30 этаж, 22 помещение</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <div class="header__container container">
+                        <div class="header__row --end">
+                            <a href="" class="header__logo --mask"></a>
+                            <ul class="header__menu menu">
+                                <li class="menu__item --active"><a href="">Главная</a></li>
+                                <li class="menu__item"><a href="">Оборудование</a></li>
+                                <li class="menu__item"><a href="">Разрешительная документация</a></li>
+                                <li class="menu__item"><a href="">Области применения</a></li>
+                                <li class="menu__item"><a href="">Услуги</a></li>
+                                <li class="menu__item"><a href="">Полезная информация</a></li>
+                                <li class="menu__item"><a href="">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-mobile">
+                <div class="header-mobile__container container">
+                    <div class="header-mobile__row">
+                        <a href="" class="header-mobile__logo --mask"></a>
+                        <a href="" class="header-mobile__burger burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div> 
+                    <div class="header-mobile__dropdown dropdown">
+                        <ul class="dropdown__tabs tabs">
+                            <li class="tabs__item --active" data-tab="phone"><span class="icon --mask" style="-webkit-mask-image: url(img/phone-solid.svg);"></span></li>
+                            <li class="tabs__item" data-tab="mail"><span class="icon --mask" style="-webkit-mask-image: url(img/envelope-solid.svg)"></span></li>
+                            <li class="tabs__item" data-tab="address"><span class="icon --mask" style="-webkit-mask-image: url(img/location-dot-solid.svg);"></span></li>
+                        </ul>
+                        <div class="dropdown__tabs-info tabs-info">
+                            <div class="tabs-info__item --active" data-tab="phone">
+                                <a href="+7(495)287-14-50">+7 (495) 287-14-50</a>
+                            </div>
+                            <div class="tabs-info__item" data-tab="mail">
+                                <a href="mailto:info@npoekar.ru">info@npoekar.ru</a>
+                            </div>
+                            <div class="tabs-info__item" data-tab="address">
+                                <p>г. Москва, Пресненская наб., д. 6 стр. 2, 30 этаж, 22 помещение</p>
+                            </div>
+                        </div>
+                        <form action="" class="dropdown__search search">
+                            <input type="text" class="search__input" placeholder="Поиск">
+                            <button type="submit" class="search__submit --mask"></button>
+                        </form>
+                        <ul class="dropdown__menu menu">
+                            <li class="menu__item"><a href="">Главная</a></li>
+                            <li class="menu__item"><a href="">Оборудование</a></li>
+                            <li class="menu__item"><a href="">Разрешительная документация</a></li>
+                            <li class="menu__item"><a href="">Области применения</a></li>
+                            <li class="menu__item"><a href="">Услуги</a></li>
+                            <li class="menu__item"><a href="">Полезная информация</a></li>
+                            <li class="menu__item"><a href="">Контакты</a></li>
+                        </ul>
+                    </div>                 
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="banner swiper">
+                <div class="banner__wrapper swiper-wrapper">
+                    <div class="banner__slide swiper-slide" style="background-image: url(img/banner.jpg);">
+                        <div class="banner__container container">
+                            <h1 class="banner__title">Высокотехнологическое<br>оборудование для обращения<br>с отходами</h1>
+                            <div class="banner__btns">
+                                <a href="" class="banner__more btn-green">Подробнее</a>
+                                <a href="" class="banner__consultation btn-border">Получить консультацию</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner__slide swiper-slide" style="background-image: url(img/banner.jpg);">
+                        <div class="banner__container container">
+                            <h1 class="banner__title">Разрешительная природоохранная<br>документация, включая ГЭЭ</h1>
+                            <div class="banner__btns">
+                                <a href="" class="banner__more btn-green">Подробнее</a>
+                                <a href="" class="banner__consultation btn-border">Получить консультацию</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner__slide swiper-slide" style="background-image: url(img/banner.jpg);">
+                        <div class="banner__container container">
+                            <h1 class="banner__title">Услуги по обращению<br>с отходами</h1>
+                            <div class="banner__btns">
+                                <a href="" class="banner__more btn-green">Подробнее</a>
+                                <a href="" class="banner__consultation btn-border">Получить консультацию</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sticky-box">
+                <div class="sticky-box__sidebar sidebar">
+                    <ul class="sidebar__menu menu">
+                        <li class="menu__item --active"><a href="#section-about">О компании</a></li>
+                        <li class="menu__item"><a href="#section-ridgepole">Конструкторское бюро</a></li>
+                        <li class="menu__item"><a href="#section-production">Собственное производство</a></li>
+                        <li class="menu__item"><a href="#section-application">Области применения</a></li>
+                        <li class="menu__item"><a href="#section-services">Услуги</a></li>
+                        <li class="menu__item"><a href="#section-number">Цифры</a></li>
+                        <li class="menu__item"><a href="#section-equipment">Преимущества</a></li>
+                        <li class="menu__item"><a href="#section-document">Документация</a></li>
+                        <li class="menu__item"><a href="#section-organizations">Партнеры</a></li>
+                        <li class="menu__item"><a href="#section-leasing">Оборудование в лизинг</a></li>
+                        <li class="menu__item"><a href="#section-geography">Нам доверяют</a></li>
+                        <li class="menu__item"><a href="#section-news">Новости</a></li>
+                        <li class="menu__item"><a href="#section-contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="sticky-box__container">
+                    <div class="about" id="section-about">
+                        <div class="about__container container">
+                            <h2 class="about__title h2-title">О компании НПО «ЭКАР»</h2>
+                            <div class="about__row">
+                                <div class="about__column column">
+                                    <h5 class="column__title">О нас</h5>
+                                    <div class="column__text">
+                                        <p>НПО «ЭКАР» — компания высококвалифицированных специалистов, работающая в области охраны окружающей среды свыше 20 лет.</p>
+                                        <p>Мы являемся одним из ведущих разработчиков и производителей высокотехнологичного оборудования, предназначенного для утилизации более чем 1100 видов отходов медицинской, нефтегазовой, химической, металлургической, пищевой и других отраслей промышленности, а также коммунальных отходов.</p>
+                                    </div>
+                                </div>
+                                <div class="about__column column">
+                                    <h5 class="column__title">О наших достижениях</h5>
+                                    <div class="column__text">
+                                        <p>Разработанное и внедряемое оборудование НПО «ЭКАР» высоко оценено правительственными структурами Российской Федерации и компаниями – потребителями. </p>
+                                        <p>Так, 03 сентября 2021 года, в рамках Восточного экономического форума (ВЭФ-2021), состоявшегося в г. Владивостоке, подписано трёхстороннее соглашение о сотрудничестве между Правительством Республики Саха Якутии, Банком «ВТБ» и ООО НПО «ЭКАР».</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ridgepole" id="section-ridgepole">
+                        <div class="ridgepole__container container">
+                            <div class="ridgepole__row">
+                                <h3 class="ridgepole__title">Конструкторское бюро</h3>
+                                <p class="ridgepole__desc">В НПО «ЭКАР» собственный штат технологов и проектировщиков, которые работают по индивидуальному заказу</p>
+                                <a href="" class="ridgepole__more btn-green">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="production" id="section-production">
+                        <div class="production__container container">
+                            <h2 class="production__title h2-title">Собственное производство</h2>
+                            <div class="production__bottom">
+                                <p class="production__desc">НПО “Экар” имеет собственное производство в городе Сасово<br>Рязанской области</p>
+                                <div class="production__arrows arrows">
+                                    <a href="" class="arrows__item --prev"></a>
+                                    <a href="" class="arrows__item --next"></a>
+                                </div>
+                            </div>
+                            <div class="production__slider swiper">
+                                <div class="production__wrapper swiper-wrapper">
+                                    <div class="production__slide production-slide swiper-slide">
+                                        <img src="img/product01.jpg" alt="" class="production-slide__img">
+                                        <h5 class="production-slide__name">КТ — Термодеструкция</h5>
+                                        <p class="production-slide__desc">ООО «НПО «ЭКАР» производит надежное и высокотехнологичное оборудование для решения задач в сфере экологической безопасности уже более 20 лет.</p>
+                                        <a href="" class="production-slide__more">Подробнее</a>
+                                        <a href="" class="production-slide__cost btn-green">Рассчитать стоимость</a>
+                                    </div>
+                                    <div class="production__slide production-slide swiper-slide">
+                                        <img src="img/product02.jpg" alt="" class="production-slide__img">
+                                        <h5 class="production-slide__name">КСОЗ — стойкие органические загрязнения</h5>
+                                        <p class="production-slide__desc">Стойкие органические загрязнители – группа отходов, относящихся к отходам I и II класса опасности</p>
+                                        <a href="" class="production-slide__more">Подробнее</a>
+                                        <a href="" class="production-slide__cost btn-green">Рассчитать стоимость</a>
+                                    </div>
+                                    <div class="production__slide production-slide swiper-slide">
+                                        <img src="img/product03.jpg" alt="" class="production-slide__img">
+                                        <h5 class="production-slide__name">КП — Пиролиз</h5>
+                                        <p class="production-slide__desc">Технология пиролиза предназначена для получения утилизации углеводородосодержащих отходов с получением сырья в виде топлива</p>
+                                        <a href="" class="production-slide__more">Подробнее</a>
+                                        <a href="" class="production-slide__cost btn-green">Рассчитать стоимость</a>
+                                    </div>
+                                    <div class="production__slide production-slide swiper-slide">
+                                        <img src="img/product04.jpg" alt="" class="production-slide__img">
+                                        <h5 class="production-slide__name">КТ — Термодеструкция</h5>
+                                        <p class="production-slide__desc">ООО «НПО «ЭКАР» производит надежное и высокотехнологичное оборудование для решения задач в сфере экологической безопасности уже более 20 лет.</p>
+                                        <a href="" class="production-slide__more">Подробнее</a>
+                                        <a href="" class="production-slide__cost btn-green">Рассчитать стоимость</a>
+                                    </div>
+                                    <div class="production__slide production-slide swiper-slide">
+                                        <img src="img/product05.jpg" alt="" class="production-slide__img">
+                                        <h5 class="production-slide__name">КСОЗ — стойкие органические загрязнения</h5>
+                                        <p class="production-slide__desc">Стойкие органические загрязнители – группа отходов, относящихся к отходам I и II класса опасности</p>
+                                        <a href="" class="production-slide__more">Подробнее</a>
+                                        <a href="" class="production-slide__cost btn-green">Рассчитать стоимость</a>
+                                    </div>
+                                    <div class="production__slide production-slide swiper-slide">
+                                        <img src="img/product06.jpg" alt="" class="production-slide__img">
+                                        <h5 class="production-slide__name">КП — Пиролиз</h5>
+                                        <p class="production-slide__desc">Технология пиролиза предназначена для получения утилизации углеводородосодержащих отходов с получением сырья в виде топлива</p>
+                                        <a href="" class="production-slide__more">Подробнее</a>
+                                        <a href="" class="production-slide__cost btn-green">Рассчитать стоимость</a>
+                                    </div>
+                                    <div class="production__slide production-slide swiper-slide">
+                                        <img src="img/product07.jpg" alt="" class="production-slide__img">
+                                        <h5 class="production-slide__name">КТ — Термодеструкция</h5>
+                                        <p class="production-slide__desc">ООО «НПО «ЭКАР» производит надежное и высокотехнологичное оборудование для решения задач в сфере экологической безопасности уже более 20 лет.</p>
+                                        <a href="" class="production-slide__more">Подробнее</a>
+                                        <a href="" class="production-slide__cost btn-green">Рассчитать стоимость</a>
+                                    </div>
+                                </div>
+                                <div class="production__pagination swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="application" id="section-application">
+                        <div class="application__container container">
+                            <h2 class="application__title h2-title">Области применения</h2>
+                            <div class="application__row">
+                                <div class="application__item application-item">
+                                    <h5 class="application-item__title">Жилищно-коммунальное хозяйство (ЖКХ)</h5>
+                                    <span class="application-item__number">01</span>
+                                </div>
+                                <div class="application__item application-item">
+                                    <h5 class="application-item__title">Нефтянная отрасль</h5>
+                                    <span class="application-item__number">02</span>
+                                </div>
+                                <div class="application__item application-item">
+                                    <h5 class="application-item__title">Обезвреживание<br>стойких органических загрязнителей</h5>
+                                    <span class="application-item__number">03</span>
+                                </div>
+                                <div class="application__item application-item">
+                                    <h5 class="application-item__title">Здравоохранение</h5>
+                                    <span class="application-item__number">04</span>
+                                </div>
+                                <div class="application__item application-item">
+                                    <h5 class="application-item__title">Агропромышленный комплекс</h5>
+                                    <span class="application-item__number">05</span>
+                                </div>
+                                <div class="application__item application-item">
+                                    <h5 class="application-item__title">Контрафактная<br>и фальсифицированная продукция</h5>
+                                    <span class="application-item__number">06</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services" id="section-services">
+                        <div class="services__container container">
+                            <h2 class="services__title h2-title">Мы предоставляем<br>следующие услуги</h2>
+                            <div class="services__row">
+                                <div class="services__item services-item" style="background-image: url(img/service01.jpg);">
+                                    <h5 class="services-item__title">Производство оборудования<br>для обращения с отходами</h5>
+                                    <p class="services-item__desc">Проектирование, изготовление, монтаж и обслуживание передовой техники для утилизации отходов по стандартам экологичности</p>
+                                    <a href="" class="services-item__more btn-border"><span>Подробнее</span></a>
+                                </div>
+                                <div class="services__item services-item" style="background-image: url(img/service02.jpg);">
+                                    <h5 class="services-item__title">Разрешительная природоохранная<br>документация</h5>
+                                    <p class="services-item__desc">Полный перечень услуг по оформлению документов по охране окружающей среды на предприятии (лицензии, сертификаты, договора)</p>
+                                    <a href="" class="services-item__more btn-border"><span>Подробнее</span></a>
+                                </div>
+                                <div class="services__item services-item" style="background-image: url(img/service03.jpg);">
+                                    <h5 class="services-item__title">Утилизация медицинских отходов</h5>
+                                    <p class="services-item__desc">Прием для обеззараживания лабораторных, фармацевтических, медицинских отходов класса А, Б, В и остатков химикалий</p>
+                                    <a href="" class="services-item__more btn-border"><span>Подробнее</span></a>
+                                </div>
+                                <div class="services__item services-item" style="background-image: url(img/service04.jpg);">
+                                    <h5 class="services-item__title">Утилизация промышленных отходов</h5>
+                                    <p class="services-item__desc">Комплекс услуг по обращению с отходами I-IV класса, включающий в себя сбор, транспортировку, использование, обезвреживание и размещение</p>
+                                    <a href="" class="services-item__more btn-border"><span>Подробнее</span></a>
+                                </div>
+                                <div class="services__item services-item" style="background-image: url(img/service05.jpg);">
+                                    <h5 class="services-item__title">Расчет экологических платежей</h5>
+                                    <p class="services-item__desc">Определение для хозяйствующих субъектов обязательных взносов за выбросы, сбросы, отходы, оказывающих негативное воздействие на среду</p>
+                                    <a href="" class="services-item__more btn-border"><span>Подробнее</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="number" id="section-number">
+                        <div class="number__container container">
+                            <h2 class="number__title h2-title">О нас в цифрах</h2>
+                            <div class="number__slider swiper">
+                                <div class="number__wrapper swiper-wrapper">
+                                    <div class="number__slide number-slide swiper-slide">
+                                        <p class="number-slide__count">20 лет</p>
+                                        <p class="number-slide__title">в области утилизации отходов</p>
+                                    </div>
+                                    <div class="number__slide number-slide swiper-slide">
+                                        <p class="number-slide__count">5 000 МВт</p>
+                                        <p class="number-slide__title">устанавливаемой мощности</p>
+                                    </div>
+                                    <div class="number__slide number-slide swiper-slide">
+                                        <p class="number-slide__count">500 000 тонн</p>
+                                        <p class="number-slide__title"> отходов утилизировано</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="equipment" id="section-equipment">
+                        <div class="equipment__container container">
+                            <h2 class="equipment__title h2-title">Почему выбирают наше оборудование</h2>
+                            <div class="equipment__row">
+                                <div class="equipment__item equipment-item">
+                                    <h5 class="equipment-item__title">Более 20 лет в отрасли</h5>
+                                    <p class="equipment-item__desc">Большой опыт сбора, транспортирования, обработки, утилизации, обезвреживания и размещения отходов I-V классов опасности</p>
+                                    <img src="img/adv_icon01.svg" alt="" class="equipment-item__icon">
+                                </div>
+                                <div class="equipment__item equipment-item">
+                                    <h5 class="equipment-item__title">400+ готовых проектов</h5>
+                                    <p class="equipment-item__desc">Предоставляем полный цикл производственных работ, включающий разработку и контроль на каждом этапе проекта</p>
+                                    <img src="img/adv_icon02.svg" alt="" class="equipment-item__icon">
+                                </div>
+                                <div class="equipment__item equipment-item">
+                                    <h5 class="equipment-item__title">Разрешительная документация</h5>
+                                    <p class="equipment-item__desc">Сертификаты соответствия ТР ТС, паспорта и т.д., включая государственную экологическую экспертизу</p>
+                                    <img src="img/adv_icon03.svg" alt="" class="equipment-item__icon">
+                                </div>
+                                <div class="equipment__item equipment-item">
+                                    <h5 class="equipment-item__title">Конструкторское бюро</h5>
+                                    <p class="equipment-item__desc">Штат технологов и проектировщиков, авторские разработки и взаимодействие с ведущими научными центрами</p>
+                                    <img src="img/adv_icon04.svg" alt="" class="equipment-item__icon">
+                                </div>
+                                <div class="equipment__item equipment-item">
+                                    <h5 class="equipment-item__title">Собственное производство</h5>
+                                    <p class="equipment-item__desc">Производственные площади 12 000 м2, расположенные в Рязанской области, г. Сасово, ул. Пушкина 2</p>
+                                    <img src="img/adv_icon05.svg" alt="" class="equipment-item__icon">
+                                </div>
+                                <div class="equipment__item equipment-item">
+                                    <h5 class="equipment-item__title">Гарантия 12+ месяцев</h5>
+                                    <p class="equipment-item__desc">Лицензированные услуги в соответствии с законодательством РФ, гарантийные обязательства от года и выше</p>
+                                    <img src="img/adv_icon06.svg" alt="" class="equipment-item__icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="document" id="section-document">
+                        <div class="document__container container">
+                            <h2 class="document__title h2-title">Документы</h2>
+                            <p class="document__desc">ООО «НПО «ЭКАР» обладает полным пакетом<br>разрешительной документации:</p>
+                            <div class="document__slider swiper">
+                                <div class="document__wrapper swiper-wrapper">
+                                    <div class="document__slide swiper-slide">
+                                        <a href="img/doc01.jpg" class="document__img" data-fancybox="document"><img src="img/doc01.jpg" alt=""></a>                                        
+                                        <p class="document__name">Декларация соответствия ТР ТС Комплекс тепловой серии КТ</p>
+                                    </div>
+                                    <div class="document__slide swiper-slide">
+                                        <a href="img/doc02.jpg" class="document__img" data-fancybox="document"><img src="img/doc02.jpg" alt=""></a>
+                                        <p class="document__name">Декларация соответствия ТР ТС Комплекс пиролизный серии КП</p>
+                                    </div>
+                                    <div class="document__slide swiper-slide">
+                                        <a href="img/doc03.jpg" class="document__img" data-fancybox="document"><img src="img/doc03.jpg" alt=""></a>
+                                        <p class="document__name">Класс опасности зольного остатка после обезвреживания ТКО</p>
+                                    </div>
+                                    <div class="document__slide swiper-slide">
+                                        <a href="img/doc04.jpg" class="document__img" data-fancybox="document"><img src="img/doc04.jpg" alt=""></a>
+                                        <p class="document__name">Технические условия установки КТ-500</p>
+                                    </div>
+                                    <div class="document__slide swiper-slide">
+                                        <a href="img/doc01.jpg" class="document__img" data-fancybox="document"><img src="img/doc01.jpg" alt=""></a>
+                                        <p class="document__name">Декларация соответствия ТР ТС Комплекс тепловой серии КТ</p>
+                                    </div>
+                                    <div class="document__slide swiper-slide">
+                                        <a href="img/doc02.jpg" class="document__img" data-fancybox="document"><img src="img/doc02.jpg" alt=""></a>
+                                        <p class="document__name">Декларация соответствия ТР ТС Комплекс пиролизный серии КП</p>
+                                    </div>
+                                    <div class="document__slide swiper-slide">
+                                        <a href="img/doc03.jpg" class="document__img" data-fancybox="document"><img src="img/doc03.jpg" alt=""></a>
+                                        <p class="document__name">Класс опасности зольного остатка после обезвреживания ТКО</p>
+                                    </div>
+                                    <div class="document__slide swiper-slide">
+                                        <a href="img/doc04.jpg" class="document__img" data-fancybox="document"><img src="img/doc04.jpg" alt=""></a>
+                                        <p class="document__name">Технические условия установки КТ-500</p>
+                                    </div>
+                                </div>
+                                <div class="document__pagination swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="organizations" id="section-organizations">
+                        <div class="organizations__container container">
+                            <div class="organizations__head">
+                                <h2 class="organizations__title h2-title --active" data-tab="partners">Партнеры</h2>
+                                <h2 class="organizations__title h2-title" data-tab="clients">Заказчики</h2>
+                            </div>
+                            <div class="organizations__body">
+                                <div class="organizations__inner --active" data-tab="partners">
+                                    <div class="organizations__slider swiper">
+                                        <div class="organizations__wrapper swiper-wrapper">
+                                            <div class="organizations__slide swiper-slide">
+                                                <img src="img/partners_logo01.png" alt="" class="organizations__img">
+                                            </div>
+                                            <div class="organizations__slide swiper-slide">
+                                                <img src="img/partners_logo02.png" alt="" class="organizations__img">
+                                            </div>
+                                            <div class="organizations__slide swiper-slide">
+                                                <img src="img/partners_logo03.png" alt="" class="organizations__img">
+                                            </div>
+                                            <div class="organizations__slide swiper-slide">
+                                                <img src="img/partners_logo04.png" alt="" class="organizations__img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="organizations__inner" data-tab="clients">
+                                    <div class="organizations__slider swiper">
+                                        <div class="organizations__wrapper swiper-wrapper">
+                                            <div class="organizations__slide swiper-slide">
+                                                <img src="img/clients_logo01.png" alt="" class="organizations__img">
+                                            </div>
+                                            <div class="organizations__slide swiper-slide">
+                                                <img src="img/clients_logo02.png" alt="" class="organizations__img">
+                                            </div>
+                                            <div class="organizations__slide swiper-slide">
+                                                <img src="img/clients_logo03.png" alt="" class="organizations__img">
+                                            </div>
+                                            <div class="organizations__slide swiper-slide">
+                                                <img src="img/clients_logo04.png" alt="" class="organizations__img">
+                                            </div>
+                                            <div class="organizations__slide swiper-slide">
+                                                <img src="img/clients_logo05.png" alt="" class="organizations__img">
+                                            </div>
+                                            <div class="organizations__slide swiper-slide">
+                                                <img src="img/clients_logo06.png" alt="" class="organizations__img">
+                                            </div>
+                                            <div class="organizations__slide swiper-slide">
+                                                <img src="img/clients_logo07.png" alt="" class="organizations__img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leasing" id="section-leasing">
+                        <div class="leasing__container container">
+                            <h2 class="leasing__title h2-title">Почему выгодно приобрести<br>оборудование в лизинг</h2>
+                            <div class="leasing__bottom">
+                                <p class="leasing__desc">НПО «ЭКАР» готово реализовывать и имеет положительный опыт реализации производимого оборудования на условиях лизинга.</p>
+                                <a href="" class="leasing__callback btn-green">Оставить заявку на лизинг</a>
+                            </div>
+                            <div class="leasing__row">
+                                <div class="leasing__item leasing-item">
+                                    <h5 class="leasing-item__title">Минимальное участие денежных средств </h5>
+                                    <span class="leasing-item__number">01</span>
+                                </div>
+                                <div class="leasing__item leasing-item">
+                                    <h5 class="leasing-item__title">Меньший срок входа<br>в сделку</h5>
+                                    <span class="leasing-item__number">02</span>
+                                </div>
+                                <div class="leasing__item leasing-item">
+                                    <h5 class="leasing-item__title">Ускоренная амортизация</h5>
+                                    <span class="leasing-item__number">03</span>
+                                </div>
+                                <div class="leasing__item leasing-item">
+                                    <h5 class="leasing-item__title">Минимальный пакет документов</h5>
+                                    <span class="leasing-item__number">04</span>
+                                </div>
+                                <div class="leasing__item leasing-item">
+                                    <h5 class="leasing-item__title">НДС в составе платежей подлежит возмещению</h5>
+                                    <span class="leasing-item__number">05</span>
+                                </div>
+                                <div class="leasing__item leasing-item">
+                                    <h5 class="leasing-item__title">Предмет лизинга выступает обеспечением</h5>
+                                    <span class="leasing-item__number">06</span>
+                                </div>
+                                <div class="leasing__item leasing-item">
+                                    <h5 class="leasing-item__title">Экономия по налогу<br>на прибыль</h5>
+                                    <span class="leasing-item__number">07</span>
+                                </div>
+                                <div class="leasing__item leasing-item">
+                                    <h5 class="leasing-item__title">Учет имущества<br>за балансом Лизингополучателя</h5>
+                                    <span class="leasing-item__number">08</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="geography" id="section-geography">
+                        <div class="geography__container container">
+                            <h2 class="geography__title h2-title">География проектов</h2>
+                            <img src="img/map.png" alt="" class="geography__img">
+                        </div>
+                    </div>
+                    <div class="news" id="section-news">
+                        <div class="news__container container">
+                            <h2 class="news__title h2-title">Новости компании</h2>
+                            <div class="news__slider swiper">
+                                <div class="news__wrapper swiper-wrapper">
+                                    <div class="news__slide news-slide swiper-slide">
+                                        <img src="img/news01.jpg" alt="" class="news-slide__img">
+                                        <div class="news-slide__text">
+                                            <h6 class="news-slide__title">Завершены испытания комплекса КТп-500/8</h6>
+                                            <p class="news-slide__date">28 авг 2021</p>
+                                            <p class="news-slide__desc">Завершены опытно-промышленные испытания комплекса КТп-500/8 в республике Саха (Якутия)...</p>
+                                            <a href="" class="news-slide__more">Подробнее</a>
+                                        </div>
+                                    </div>
+                                    <div class="news__slide news-slide swiper-slide">
+                                        <img src="img/news02.jpg" alt="" class="news-slide__img">
+                                        <div class="news-slide__text">
+                                            <h6 class="news-slide__title">НПО «ЭКАР» заключило трехстороннее соглашение о сотрудничестве</h6>
+                                            <p class="news-slide__date">03 сен 2021</p>
+                                            <p class="news-slide__desc">На восточном экономическом форуме президент-председатель правления ВТБ Андрей Костин...</p>
+                                            <a href="" class="news-slide__more">Подробнее</a>
+                                        </div>
+                                    </div>
+                                    <div class="news__slide news-slide swiper-slide">
+                                        <img src="img/news03.jpg" alt="" class="news-slide__img">
+                                        <div class="news-slide__text">
+                                            <h6 class="news-slide__title">НПО «ЭКАР» примет участие в «Зеленой премии»</h6>
+                                            <p class="news-slide__date">30 ноя 2021</p>
+                                            <p class="news-slide__desc">ООО «НПО «ЭКАР» примет участие в ежегодном профильном конкурсе «Зеленая премия»...</p>
+                                            <a href="" class="news-slide__more">Подробнее</a>
+                                        </div>
+                                    </div>
+                                    <div class="news__slide news-slide swiper-slide">
+                                        <img src="img/news04.jpg" alt="" class="news-slide__img">
+                                        <div class="news-slide__text">
+                                            <h6 class="news-slide__title">НПО «ЭКАР» примет участие в «Зеленой премии»</h6>
+                                            <p class="news-slide__date">30 ноя 2021</p>
+                                            <p class="news-slide__desc">ООО «НПО «ЭКАР» примет участие в ежегодном профильном конкурсе «Зеленая премия»...</p>
+                                            <a href="" class="news-slide__more">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news__pagination swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacts" id="section-contacts">
+                        <div class="contacts__container container">
+                            <h2 class="contacts__title h2-title">Контакты</h2>
+                            <div class="contacts__map">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acb30a5cbe1862cca7d70cc8fd90da27a33a2003c103d2b9038437a8d816b9970&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=false&_v=20220317045752"></script>
+                            </div>
+                            <div class="contacts__box">
+                                <div class="contacts__info contacts-info">
+                                    <div class="contacts-info__item">
+                                        <div class="contacts-info__link --phone"><a href="tel:+7(495)287-14-50">+7 (495) 287-14-50</a></div>
+                                        <div class="contacts-info__link --email"><span>Клиентский отдел: </span><a href="mailto:info@npoekar.ru">info@npoekar.ru</a></div>
+                                        <div class="contacts-info__link --email"><span>Отдел продаж: </span><a href="mailto:sales@npoekar.ru ">sales@npoekar.ru</a></div>
+                                    </div>
+                                    <div class="contacts-info__item">
+                                        <div class="contacts-info__time">Пн-Пт: с 10:00 до 18:00</div>
+                                        <div class="contacts-info__address">
+                                            <span>Юридический и фактический адрес:</span>
+                                            <p>123112, г. Москва, Пресненская наб., д. 6 стр. 2, 30 этаж, 22 помещение</p>
+                                        </div>
+                                        <div class="contacts-info__address">
+                                            <span>Адрес производства:</span>
+                                            <p>391434, Рязанская область, г. Сасово, ул. Пушкина, д. 2</p>
+                                        </div>
+                                    </div>   
+                                </div>
+                                <form action="" class="contacts__form contacts-form">
+                                    <h6 class="contacts-form__title">Оставить заявку</h6>
+                                    <input type="text" class="contacts-form__input" placeholder="Ваше имя">
+                                    <input type="text" class="contacts-form__input" placeholder="Телефон">
+                                    <textarea class="contacts-form__textarea" placeholder="Сообщение"></textarea>
+                                    <p class="contacts-form__politics">Нажимая на кнопку «Отправить сообщение», Вы соглашаетесь на обработку персональных данных в соответствии с пользовательским соглашением </p>
+                                    <button type="submit" class="contacts-form__submit btn-green">Отправить</button>
+                                </form>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer__top">
+                    <div class="footer__container container">
+                        <div class="footer__row">
+                            <div class="footer__column">
+                                <h6 class="footer__name">Контактная информация</h6>
+                                <ul class="footer__list">
+                                    <li><a href="tel:+7(495)287-14-50">+7 (495) 287-14-50</a></li>
+                                    <li><a href="mailto:info@npoekar.ru">Клиентский отдел: info@npoekar.ru</a></li>
+                                    <li><a href="mailto:sales@npoekar.ru">Отдел продаж: sales@npoekar.ru</a></li>
+                                    <li><p>Пн-Пт: с 10:00 до 18:00</p></li>
+                                    <li><p>Юридический и фактический адрес: 123112, г. Москва, Пресненская наб., д. 6 стр. 2, 30 этаж, 22 помещение</p></li>
+                                    <li><p>Адрес производства: 391434, Рязанская область, г. Сасово, ул. Пушкина, д. 2</p></li>
+                                </ul>
+                            </div>
+                            <div class="footer__column">
+                                <h6 class="footer__name">Оборудование</h6>
+                                <ul class="footer__list">
+                                    <li><a href="">КТ-Термодеструкция</a></li>
+                                    <li><a href="">Пиролиз</a></li>
+                                    <li><a href="">Стойкие органические загрязнители</a></li>
+                                    <li><a href="">Гидроструйная отмывка</a></li>
+                                    <li><a href="">Сепарация</a></li>
+                                    <li><a href="">Утилизация ила очистных сооружений</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__column">
+                                <h6 class="footer__name">Услуги</h6>
+                                <ul class="footer__list">
+                                    <li><a href="">Производство оборудования для обращения с отходами</a></li>
+                                    <li><a href="">Разрешительная природоохранная документация</a></li>
+                                    <li><a href="">Утилизация медицинских отходов</a></li>
+                                    <li><a href="">Стойкие органические загрязнители</a></li>
+                                    <li><a href="">Утилизация промышленных отходов</a></li>
+                                    <li><a href="">Расчет экологических платежей</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer__column">
+                                <h6 class="footer__name">Меню сайта</h6>
+                                <ul class="footer__list">
+                                    <li><a href="">Главная</a></li>
+                                    <li><a href="">Разрешительная документация</a></li>
+                                    <li><a href="">Пиролиз</a></li>
+                                    <li><a href="">Области применения</a></li>
+                                    <li><a href="">Полезная информация</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__container container">
+                        <div class="footer__row">
+                            <p class="footer__rights">© ООО «НПО “ЭКАР”» 2022. Все права защищены.</p>
+                            <a href="" class="footer__develop">Разработано в <img src="img/rosait_logo.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-mobile">
+                <div class="footer-mobile__container container">
+                    <div class="footer-mobile__top">
+                        <div class="footer-mobile__item item">
+                            <h3 class="item__name">Контактная информация</h3>
+                            <div class="item__container">
+                                <ul class="item__list list">
+                                    <li class="list__item"><a href="tel:+7(495)287-14-50">+7 (495) 287-14-50</a></li>
+                                    <li class="list__item"><a href="mailto:info@npoekar.ru">Клиентский отдел: info@npoekar.ru</a></li>
+                                    <li class="list__item"><a href="mailto:sales@npoekar.ru">Отдел продаж: sales@npoekar.ru</a></li>
+                                    <li class="list__item"><p>Пн-Пт: с 10:00 до 18:00</p></li>
+                                    <li class="list__item"><p>Юридический и фактический адрес: 123112, г. Москва, Пресненская наб., д. 6 стр. 2, 30 этаж, 22 помещение</p></li>
+                                    <li class="list__item"><p>Адрес производства: 391434, Рязанская область, г. Сасово, ул. Пушкина, д. 2</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-mobile__item item">
+                            <h3 class="item__name">Оборудование</h3>
+                            <div class="item__container">
+                                <ul class="item__list list">
+                                    <li class="list__item"><a href="">КТ-Термодеструкция</a></li>
+                                    <li class="list__item"><a href="">Пиролиз</a></li>
+                                    <li class="list__item"><a href="">Стойкие органические загрязнители</a></li>
+                                    <li class="list__item"><a href="">Гидроструйная отмывка</a></li>
+                                    <li class="list__item"><a href="">Сепарация</a></li>
+                                    <li class="list__item"><a href="">Утилизация ила очистных сооружений</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-mobile__item item">
+                            <h3 class="item__name">Услуги</h3>
+                            <div class="item__container">
+                                <ul class="item__list list">
+                                    <li class="list__item"><a href="">Производство оборудования для обращения с отходами</a></li>
+                                    <li class="list__item"><a href="">Разрешительная природоохранная документация</a></li>
+                                    <li class="list__item"><a href="">Утилизация медицинских отходов</a></li>
+                                    <li class="list__item"><a href="">Стойкие органические загрязнители</a></li>
+                                    <li class="list__item"><a href="">Утилизация промышленных отходов</a></li>
+                                    <li class="list__item"><a href="">Расчет экологических платежей</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-mobile__item item">
+                            <h3 class="item__name">Меню сайта</h3>
+                            <div class="item__container">
+                                <ul class="item__list list">
+                                    <li class="list__item"><a href="">Главная</a></li>
+                                    <li class="list__item"><a href="">Разрешительная документация</a></li>
+                                    <li class="list__item"><a href="">Пиролиз</a></li>
+                                    <li class="list__item"><a href="">Области применения</a></li>
+                                    <li class="list__item"><a href="">Полезная информация</a></li>
+                                    <li class="list__item"><a href="">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-mobile__bottom">
+                        <p class="footer-mobile__rights">© ООО «НПО “ЭКАР”» 2022.<br>Все права защищены.</p>
+                        <a href="" class="footer-mobile__develop">Разработано в<img src="img/rosait_logo.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.7/swiper-bundle.min.js?_v=20220317045752"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js?_v=20220317045752"></script>
+        <script defer src="js/app.min.js?_v=20220317045752"></script>
+    </body>
+</html>
